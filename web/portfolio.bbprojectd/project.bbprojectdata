@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>9BAA896D-D26E-4133-ABB2-FF83A6719F94</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>9BAA896D-D26E-4133-ABB2-FF83A6719F94</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va6ADAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAqAIAAAUAAAABAQAAVXNlcnMA
+				AAAIAAAAAQEAAGp5ZWxld2lzDAAAAAEBAABHb29nbGUg
+				RHJpdmUDAAAAAQEAAERldgAJAAAAAQEAAHBvcnRmb2xp
+				bwAAAAMAAAABAQAAd2ViABgAAAABBgAABAAAABQAAAAk
+				AAAAOAAAAEQAAABYAAAACAAAAAQDAABTZAIAAAAAAAgA
+				AAAEAwAAwh8GAAAAAAAIAAAABAMAAPmwGgAAAAAACAAA
+				AAQDAADBtRoAAAAAAAgAAAAEAwAAT3NiAAAAAAAIAAAA
+				BAMAABcbYwAAAAAAGAAAAAEGAACEAAAAlAAAAKQAAAC0
+				AAAAxAAAANQAAAAIAAAAAAQAAEG5kbqlAAAAGAAAAAEC
+				AAACAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAEAAAAAwMA
+				AAQAAAAEAAAAAwMAAPUBAAAMAAAAAQEAAE1hY2ludG9z
+				aCBIRAgAAAAEAwAAACDBDBwAAAAIAAAAAAQAAEG4i06J
+				AAAAJAAAAAEBAAA5OEE0NURFNS01QzVGLTNBRTQtQTY2
+				RS1ENzY3RkMyQUEyOEIYAAAAAQIAAIEAAAABAAgA7xcA
+				AAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAA
+				vwAAAAECAABlOTRhNDNmNDQ5NzQxZTg4NzkyNmM0MTAy
+				MzBmOWVjNDNlZjAxZDEyOzAwMDAwMDAwOzAwMDAwMDAw
+				OzAwMDAwMDAwMDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1z
+				YW5kYm94LnJlYWQtd3JpdGU7MDAwMDAwMDE7MDEwMDAw
+				MDM7MDAwMDAwMDAwMDYzMWIxNzsvdXNlcnMvanllbGV3
+				aXMvZ29vZ2xlIGRyaXZlL2Rldi9wb3J0Zm9saW8vd2Vi
+				AADAAAAA/v///wEAAAAAAAAADwAAAAQQAABkAAAAAAAA
+				AAUQAADkAAAAAAAAABAQAAAUAQAAAAAAAEAQAAAEAQAA
+				AAAAAAIgAADMAQAAAAAAABAgAABMAQAAAAAAABEgAACA
+				AQAAAAAAABIgAABgAQAAAAAAABMgAABwAQAAAAAAACAg
+				AACsAQAAAAAAADAgAADYAQAAAAAAAAHAAAA0AQAAAAAA
+				ABHAAAAUAAAAAAAAABLAAABAAQAAAAAAAIDwAADgAQAA
+				AAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file://localhost/Users/jyelewis/Google%20Drive/Dev/portfolio/web/</string>
+				<key>RelativePath</key>
+				<string>./</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>portfolio</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>

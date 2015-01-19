@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Jye Lewis's Portfolio - <%= pageTitle %></title>
+	<meta name="google-site-verification" content="b4bY_KklNwNTimBBYTrDSN6exFyAmSMvDrSkk205waE" />
+	
+	<script type="text/javascript" src="/r/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/r/js/fancybox/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="/r/js/fancybox/jquery.fancybox.css"/ >
+	<script type="text/javascript" src="/r/cufon/cufon-yui-retina.js"></script>
+	<script type="text/javascript" src="/r/cufon/GothamMeduim.font.js"></script>
+	<script type="text/javascript" src="/r/cufon/GothamLight.font.js"></script>
+	<script type="text/javascript">
+	Cufon.replace('.cufonLight');
+	Cufon.replace('.cufonMedium', { fontFamily: 'GothamMeduim' });
+	</script>
+	<script type="text/javascript" src="/r/js/loadAnimate.js"></script>
+	<script type="text/javascript" src="/r/js/ipadAnimate.js"></script>
+	<script type="text/javascript" src="/r/js/ajaxPageLoad.js"></script>
+
+	<link type="text/css" href="/r/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrap">
+		<div id="head">
+			<a id="titleContainer" href="/about">
+				<div id="pageTitle" class="cufonLight">Personal Profile</div>
+				<div id="nameTitle" class="cufonMedium">Jye Lewis</div>
+			</a>
+			<div id="nav">
+				<ul>
+					<li><a href="/about" class="cufonLight">About</a></li>
+					<li><a href="http://blog.jyelewis.com/" class="cufonLight noAjax">Blog</a></li>
+					<li><a class="cufonLight">Projects</a>
+						<div class="liArrow"></div>
+						<ul>
+							<% projects.forEach(function(project) { %>
+
+									<li><a href="/project/<%=project.title %>"><%=project.title %></a></li>
+
+							<% }); %>
+						</ul>
+					</li>
+					<li><a class="cufonLight">Websites</a>
+						<div class="liArrow"></div>
+						<ul>
+							<% websites.forEach(function(website){ %>
+								<li><a href="<%=website.url %>" class="noAjax" target="blank"><%=website.title %></a></li>
+							<% }); %>
+						</ul>
+					</li>
+					<li><a href="/references" class="cufonLight">References</a></li>
+					<li><a href="/contact" class="cufonLight">Contact</a></li>
+				</ul>
+			</div><!-- end div nav -->
+		</div><!-- end div head -->
+		<div id="contentContainer">
+			<div class="bodyContent current">
+
+				<%- body %>
+
+			</div><!-- end div bodyContent -->
+		</div><!-- end div contentContainer -->
+	</div><!-- end div wrap -->
+</body>
+</html>

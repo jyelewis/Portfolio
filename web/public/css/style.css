@@ -1,0 +1,279 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family:Arial;
+}
+
+body p {
+	line-height:22px;
+}
+
+.clear { clear:both; }
+
+#wrap {
+	width:900px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+
+#head {
+	height:60px;
+	padding-top:90px;
+	border-bottom:1px solid #a4a4a4;
+	padding-bottom:7px;
+}
+
+#titleContainer {
+	float:left;
+	width:230px;
+	overflow:hidden;
+	height:60px;
+	color:#72b7d4;
+	display:block;
+}
+
+#titleContainer #pageTitle {
+	font-size:15px;
+	text-transform: uppercase;
+	margin-left:8px;
+}
+
+#titleContainer #nameTitle {
+	font-size:36px;
+}
+
+#nav {
+	float:right;
+}
+
+#nav > ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	padding-top:27px;
+}
+
+#nav > ul > li {
+	float:left;
+	padding: 4px 9px;
+	margin-left:22px;
+	text-align:center;
+	border-radius:7px;
+	line-height:0;
+	position:relative;
+}
+
+#nav > ul > li > a,#nav > ul > li > span  {
+	color:#000;
+	font-size:14px;
+	text-decoration:none;
+	line-height:0;
+}
+
+#nav > ul > li:hover {
+	background-color:#72b7d4;
+}
+
+#nav > ul > li:hover .liArrow {
+	display:block;
+}
+
+#nav > ul > li:hover ul {
+	display:block;
+}
+
+.liArrow {
+	display:none;
+	background-image:url('../images/liArrow.png');
+	width:12px;
+	height:6px;
+	position:absolute;
+	bottom: -6px;
+}
+
+#nav ul li ul {
+	display:none;
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:absolute;
+	z-index:999;
+	padding-top:25px;
+	width:130px;
+	text-align:left;
+}
+
+#nav ul li ul li {
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	position:relative;
+	left: -15px;
+	background-image:url('../images/dropdown.png');
+}
+
+#nav ul li ul li a {
+	line-height:16px;
+	font-size:12px;
+	color:#000;
+	text-decoration: none;
+}
+
+
+.bodyContent {
+	padding-top:50px;
+	padding-bottom:80px;
+	border-bottom: 1px solid #a4a4a4;
+}
+
+.bodyContent.hidden {
+	display:none;
+}
+
+#ipadFeature {
+	height:365px;
+	margin-top:80px;
+}
+
+#projectText {
+	margin-top:100px;
+}
+
+#projectInformation {
+	width:204px;
+	float:left;
+}
+
+#projectTitle {
+	width:174px;
+	height:37px;
+	padding: 10px 15px;
+	background-image:url('../images/projectTitle.png');
+	font-size:16px;
+}
+
+#projectSpecs {
+	margin-top:7px;
+	font-size: 12px;
+}
+
+.specRow {
+	padding: 3px 5px;
+	border-radius:8px;
+	
+	transition: all 0.1s linear;
+	/* Firefox 4 */
+	-moz-transition:all 0.1s linear;
+	/* Safari and Chrome */
+	-webkit-transition:all 0.1s linear;
+	/* Opera */
+	-o-transition:all 0.1s linear;
+}
+
+.specRow:hover {
+	/*background-color:#72b7d4; - the dark blue */
+	background-color:#eee;
+}
+
+#projectSpecs .tdSpecName {
+	text-align:left;
+	float:left;
+}
+
+#projectSpecs .tdSpecValue {
+	text-align:right;
+	float:right;
+	font-size:13px;
+}
+
+#projectTextCol1, #projectTextCol2 {
+	width: 323px;
+	font-size:11px;
+	line-height:18px;
+	font-family:Verdana;
+	float:left;
+	margin-left:25px;
+	text-align:justify;
+}
+
+#projectTextCol1 p, #projectTextCol2 p {
+	margin-top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ipad styles */
+#ipadsContainer {
+	position:relative;
+}
+
+.ipad {
+	position:absolute;
+	top:36px;
+	display:none;
+}
+
+.ipadContent {
+	background-color:#000;
+	width:350px;
+	height:221px;
+	position:absolute;
+	top:35px;
+	left:42px;
+}
+
+.ipadFrame {
+	width:433px;
+	height:291px;
+}
+
+.active .ipadFrame {
+	width:541px;
+	height:362px;
+}
+
+.active .ipadContent {
+	width:435px;
+	height:278px;
+	top:42px;
+	left:53px;
+}
+
+.left.ipad {
+	left:0px;
+	display:block;
+}
+.active.ipad {
+	left:182px;
+	z-index:2;
+	top:0;
+	display:block;
+}
+.right.ipad {
+	left:466px;
+	display:block;
+}
+
+#fancyboxContent, #fancyboxContent img {
+	max-width:99%;
+	max-height:99%;
+	text-align:center;
+}
+
+a {
+	color:inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}

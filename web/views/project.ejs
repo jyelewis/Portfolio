@@ -1,0 +1,50 @@
+<% if(project.images.showImages){ %>
+	<div id="ipadFeature">
+		<div id="ipadsContainer">
+			<% project.images.images.forEach(function(image){ %>
+				<div class="ipad <%-image.active %>">
+					<img src="/r/images/ipad.png" class="ipadFrame" />
+					<img src="/projectImages/<%=project.title %>/<%=image.small %>" data-image="/projectImages/<%=project.title %>/<%=image.large %>" class="ipadContent" />
+				</div>
+			<% }); %>
+		</div>
+		<a id="fancyboxTrigger" href="#fancyboxConten" class="noAjax"></a>
+		<div style="display:none;">
+			<div id="fancyboxContent">
+				<img alt="" id="fancyboxImage" />
+			</div>
+		</div>
+	</div>
+<% } %>
+<div id="projectText">
+	<div id="projectInformation">
+		<div id="projectTitle" class="cufonLight"><%= project.title %></div>
+		<div id="projectSpecs">
+			<% project.specs.forEach(function(spec){ %>
+			<div class="specRow">
+				<div class="tdSpecName cufonMedium"><%=spec.key %></div>
+				<div class="tdSpecValue cufonLight"><%=spec.value %></div>
+				<div class="clear"></div>
+			</div>
+			<% }) %>
+		</div>
+	</div>
+	<div id="projectTextCol1">
+		<%-project.text1 %>
+	</div>
+	<div id="projectTextCol2">
+		<%-project.text2 %>
+	</div>
+	<div class="clear"></div>
+</div><!-- end div projectText -->
+<script type="text/javascript">
+	window.ipadTime = 300;
+	$('.ipad.active').prev().addClass('left');
+    $('.ipad.active').next().addClass('right');
+	rebindIpad();
+	$("#fancyboxTrigger").fancybox({
+    	openEffect	: 'elastic',
+    	closeEffect	: 'elastic',
+    	autoResize:true
+    });
+</script>
